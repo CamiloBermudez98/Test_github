@@ -1,0 +1,60 @@
+.menu {
+    display: flex;
+    list-style:none;
+    padding: 25px;
+    width:auto; 
+    height:auto
+    
+
+}
+
+.izq {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.der {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+.menu li a:hover {
+        background-color:#f80101;
+    }
+.menu li a {
+        background-color:rgb(75, 73, 73);
+        color:rgb(10, 10, 10);
+        display:block;
+        text-decoration:none;
+        padding:10px 50px;
+        
+    }
+
+    .menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+    
+    .menu  li:hover > ul {
+        display:block;
+    }
+    
+    .menu  li ul li {
+        position:relative;
+    }
+    
+    .menu  li ul li ul {
+        right:-140px;
+        top:0px;
+    }
+    .piepagina{ 
+         background-color: rgb(75, 73, 73);
+     display: flex;
+     min-height: 50px;
+     margin-top: 10px;
+    }
