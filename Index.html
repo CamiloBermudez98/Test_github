@@ -10,6 +10,9 @@
                              
             <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="carrusel.css">
+            <link rel="stylesheet" href="Menu.css">
+            <link rel="stylesheet" href="productos.css">
+            
         				
 	</head>
     
@@ -23,29 +26,40 @@
 
 <div class="izq">
     <ul class="menu">
-        <img class ="logo" src="https://www.impodirect.com/sites/default/files/public/impodirect-mottox.png" >       
+        <img class ="logo" src="https://www.criteo.com/es/wp-content/uploads/sites/8/2020/06/ss-logo-Wurth-min.png" >       
     </ul>
 </div>
 
-<div class="center">
-  <ul class="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Acerca</a></li>
-    <li><a href="#">Contacto</a></li>
-      
-  </ul>
+
+
+<div  class="der_sec">
+  <div class = "contenedor_secundario"></div>
 </div>
 
 <div  class="der">
-    <nav class="menu">
-      <ul>
-      <li><a href="#">Carrito (0)</a>
-        <ul>
-          <li><a href="#">No hay articulos</a></li>
-        </ul>
-      </li>
-    </ul>
-    </nav>
+  <nav class="menu2">
+    <ul>
+      <li><a href="#">Nustros puntos</a></li>
+      <li><a href="#">Donde comprar</a></li>
+      <li><a href="#">Certificados</a></li>
+      <li><a href="#">Mi cuenta</a></li>
+
+  </ul>
+  </nav>
+</div>
+
+
+<div  class="der_2">
+  <nav class="menu">
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Acerca</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><input placeholder="¿Que desea buscar?" ></input></li>
+    <li><button href="#">Buscar</button></li>
+
+  </ul>
+  </nav>
 </div>
 
 </header>
@@ -56,21 +70,48 @@
     <input class="slide-open" type="radio" id="slide-1" 
           name="slide" aria-hidden="true" hidden="" checked="checked">
     <div class="slide-item">
-      <img src="https://motor.elpais.com/wp-content/uploads/2022/02/Consejos-para-empezar-a-montar-en-moto-1800x728.jpg?v=1646029763">   
-        <label class="slide-text">Descripción 3</label>    
-    </div>
+      <img class ="slide-imagen" src="https://www.abast.es/wp-content/uploads/2015/04/cap_cs_wurth.jpg">
+             
+        <a class="slide-text" href="#">Acerca de nosotros</a>
+
+        <p class="slide-parf">Würth Colombia fue fundada en Diciembre de 2005. Actualmente la empresa está compuesta por una 
+          fuerza de ventas de 230 personas, y un plantel administrativo y de logística de 52 personas,
+           cifras en constante crecimiento, gracias al cumplimiento de los objetivos propuestos.
+        </p>
+          </div>
 
     <input class="slide-open" type="radio" id="slide-2" 
           name="slide" aria-hidden="true" hidden="">
     <div class="slide-item">
-      <img src="https://www.migueltroyano.com/wp-content/uploads/2020/09/postgres_copy.png">
-    </div>
+      <img class ="slide-imagen "src="https://www.criteo.com/es/wp-content/uploads/sites/8/2020/06/ss-hero-Wurth-min.png">   
+             
+      <a class="slide-text" href="#">Nuestros productos</a>
+      <p class="slide-parf">
+      elementos de fijación, tornillos y accesorios de tornillos, tacos, productos químicos, 
+      componentes electrónicos y electromecánicos,muebles y accesorios de construcción, herramientas, 
+      máquinas, material de instalación, hardware automotriz , sistemas de gestión de inventarios, 
+      almacenamiento y recuperación. 
+    </p>
+    
+      </div>
 
     <input class="slide-open" type="radio" id="slide-3" 
           name="slide" aria-hidden="true" hidden="">
     <div class="slide-item">
-      <img src="https://www.migueltroyano.com/wp-content/uploads/2020/09/excel_guardar_como_csv.jpg">
-    </div>
+      <img class ="slide-imagen"src="https://www.lubricentrojm.cl/wp-content/uploads/2017/11/maxresdefault-1.jpg">                       
+      <a class="slide-text" href="#">Contactenos</a>
+      <p class="slide-parf"> 
+        <li class="slide-list" >Dirección: AC 63 # 74B-42, Parque empresarial Normandia, Bodegas 1 y 2. Bogotá, Colombia
+        </li>
+
+        <li class="slide-list2" > Teléfono: (571) 745 63 89</li>
+       
+        <li class="slide-list3" > Email: ecommerce@wurth.com.co</li>
+        
+
+        
+      </p>
+     </div>
 
 
     <label for="slide-3" class="slide-control prev control-1">‹</label>
@@ -97,9 +138,19 @@
 </div>
 
 
-         <!-- imagen divisoria -->
+<br>
+
+      
+<div class="izq_titulos"><a class="titulos"><span>Productos </span></a></div>
+<div class="der_titulos"><a class="titulos" href="#"><span>Ver Mas...</span></a></div>
+
+<br> 
 
 
+<hr>
+
+    <br>
+    
   <!-- Tarjetas responsivas -->
 <div
 style="
@@ -112,30 +163,91 @@ style="
 >
 
 <div style="margin: 10px; min-width: 200px; max-width: 300px;">
-    <div style="background-color: rgb(75, 73, 73); min-height: 100px;"></div>
-    <div>
-        GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
-         Se utiliza principalmente para la creación de código fuente de programas de ordenador.
-         El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc..
-    </div>
+  <div  class="tarjeta"> 
+    <img class = "imagenes_destacados"src="https://wurth.co/wp-content/uploads/2022/03/0703754002-600x600_c.jpg">   
+  
   </div>
-  <div style="margin: 10px; min-width: 200px; max-width: 300px;">
-    <div style="background-color: rgb(75, 73, 73); min-height: 100px;"></div>
+
+  <div>
+    Lijadora orbital neumática profesional para trabajos de lijado fino o grueso, con absorción de polvo y alta velocidad de trabajo.
+  </div>
+</div>
+
+
+  <div style="margin: 5px; min-width: 50px; max-width: 300px;">
+    <div class="tarjeta">
+      <img class = "imagenes_destacados"src="https://wurth.co/wp-content/uploads/2022/05/907-030-255-600x600_c.jpg">      
+    
+    </div>
     <div>
-        GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
-        Se utiliza principalmente para la creación de código fuente de programas de ordenador.
-        El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc..
+      Taladro neumático 3/8 compacto y ligero, reversible, mandril sin llave 
   
     </div>
   </div>
-  <div style="margin: 10px; min-width: 200px; max-width: 300px;">
-    <div style="background-color: rgb(75, 73, 73); min-height: 100px;"></div>
+  
+  
+  <div style="margin: 5px; min-width: 50px; max-width: 300px;">
+    <div class="tarjeta">
+      <img class ="imagenes_destacados"src= "https://wurth.co/wp-content/uploads/2022/02/07023150-600x600_c.jpg">      
+    
+    </div>
     <div>
-        GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
-        Se utiliza principalmente para la creación de código fuente de programas de ordenador.
-        El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc..
+      Ingletadora con mesa de corte inferior y superior. Para corte de maderas duras y blandas, conglomerados, tubos de pvc, etc
+  
     </div>
   </div>
+
+ 
+
+</div>
+
+
+<div
+style="
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  flex-wrap: wrap;
+  justify-content: center;
+"
+>
+
+<div style="margin: 10px; min-width: 200px; max-width: 300px;">
+  <div  class="tarjeta"> 
+    <img class = "imagenes_destacados"src="https://wurth.co/wp-content/uploads/2022/02/0701110100-600x600_c.jpg">   
+  
+  </div>
+
+  <div>
+    Equipo de limpieza con agua a alta presión para vehículos, fachadas, piezas y componentes en general.
+  </div>
+</div>
+
+
+  <div style="margin: 5px; min-width: 50px; max-width: 300px;">
+    <div class="tarjeta">
+      <img class = "imagenes_destacados"src="https://wurth.co/wp-content/uploads/2022/01/0965-93-122-600x600_c.jpg">      
+    
+    </div>
+    <div>
+      <a href ="#">Conjunto de herramientas con ratchet, copas sistema powerdriv, llaves mixtas, destornilladores y puntas.</a>
+  
+    </div>
+  </div>
+  
+  
+  <div style="margin: 5px; min-width: 50px; max-width: 300px;">
+    <div class="tarjeta">
+      <img class ="imagenes_destacados"src= "https://wurth.co/wp-content/uploads/2022/05/0008232_limpiador-pistola-pu-500-ml-600x600_c.jpeg">      
+    
+    </div>
+    <div>
+      <a href ="#">Para eliminar salpicaduras recientes de espuma de poliuretano en la ropa y otras superficies.</a>
+  
+    </div>
+  </div>
+ 
+
 </div>
 
 

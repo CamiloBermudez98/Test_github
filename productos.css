@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.imagenes_destacados {
+    display: block;
+    border: 2px solid #fa0303; 
+    margin: auto;
+    width: 250px;
+    height: 200px;
+    
+  }
+  .tarjeta{
+    padding:10px 10px; 
+    min-height: 50px;
+    width: 250px;
+    align-content: center;
+   
+  }
+
+
+

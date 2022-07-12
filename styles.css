@@ -1,85 +1,36 @@
 body {
     margin:0;
     padding:0;
+    text-decoration: none;
+}
+
+.titulos {
+    letter-spacing: 5px;
+    padding: 10px 10px;
+   
   }
-  .contenedor_primario{
-    background-color: rgb(75, 73, 73);
-    display: flex;
-    min-height: 50px;
-    margin-top: 0px;
-    left: -40px;
-    border: 2px;
-    border-color: black;
+a{
+    text-decoration: none;
 }
-  .logo{
-    width: 100;
-    height: 50;
-}
-.menu {
-    display: flex;
-    list-style:none;
-    margin-top:5px; 
-}
-
-
-
-.izq {
-    position: absolute;
-    top: 0px;
-    left: -30px;
-}
-
-.der {
-    position: absolute;
-    top: 0px;
-    right: 10px;
-}
-
-.center {
-    position: absolute;
-    top: 0px;
-    left: 30%;
-}
-
-
-    .piepagina{ 
-         background-color: rgb(75, 73, 73);
-     display: flex;
-     min-height: 50px;
-     margin-top: 10px;
+  hr {
+    border: 0;
+    border-top: 2px solid rgb(251, 4, 4);
+    
+    height:0;
+    width: 1000px;
+    }
+  .izq_titulos 
+    {
+        position: absolute;
+        font-size: 20px;
+        left: 310px;
     }
 
-
-    .menu li a {
-        background-color:rgb(75, 73, 73);
-        color:rgb(252, 251, 251);
-        display:block;
-        text-decoration:none;
-        padding:10px 50px;
+    .der_titulos 
+     {
+        position: absolute;
         
+        right: 310px;
     }
-
-    .menu ul {
-		display: flex;
-		padding: 0;
-		margin: 0;
-		list-style: none;
-	}
-	.menu a {
-		display: block;
-		padding: 2em;
-		background-color: rgb(75, 73, 73);
-		text-decoration: none;
-		color: #191C26;
-	}
-	.menu a:hover {
-        background-color:#f80101;
-	}
-	.menu ul li ul {
-		display: none;
-	}
-	.menu ul li a:hover + ul, .menu ul li ul:hover {
-		display: block;
-	}
 
 

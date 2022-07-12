@@ -1,0 +1,233 @@
+   
+    .menu 
+    {
+        display: flex;
+        list-style:none;
+        margin-top:5px; 
+        margin-right: 10px;
+        font-size: 20px;
+        
+    }
+
+    .menu li a
+     {
+         background-color:rgb(249, 248, 248);
+        color:rgb(249, 2, 2);
+        display:block;
+        text-decoration:none;
+        padding:10px 60px;
+        border-radius: 15px;
+        
+    }
+
+
+
+    .menu li input
+     {
+        display:block;
+        text-decoration:none;
+        padding:10px 10px;
+        border-radius: 20px;
+        width: 150px;
+        border: 2px solid #fa0303; 
+       
+    }
+    .menu li button
+    {
+     
+       border-radius: 20px;
+       background-color: rgb(250, 247, 247);
+       border: 2px solid #fa0303; 
+       color: rgb(248, 6, 6);
+       padding: 10px 10px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin-left: 5px;
+      
+   }
+
+    .menu ul 
+    {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .menu a 
+    {
+        display: block;
+        padding: 2em;
+        background-color: rgb(75, 73, 73);
+        text-decoration: none;
+        color: #191C26;
+    }
+
+    .menu a:hover 
+    {
+         background-color: rgb(75, 73, 73);
+    }
+
+    .menu ul li ul 
+    {
+         display: none;
+    }
+
+    .menu ul li a:hover + ul, .menu ul li ul:hover
+    {
+         display: block;
+    }
+
+    .contenedor_primario
+    {
+        width: 100%;
+        background-color:  rgb(248, 246, 246);
+        display: flex;
+        min-height: 50px;
+        margin-top: 0px;
+        left: -40px;
+        border: 2px;
+        border-color: black;
+        height: 150;
+    }
+    .contenedor_secundario
+    {
+        background-color:  rgb(251, 4, 4);
+        width: 550;
+        height: 50;
+        border-radius: 15px;
+    }
+
+    .logo
+    {
+        width: 300;
+        height: 100;
+    }
+
+    .izq 
+    {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+
+    .der
+     {
+        position: absolute;
+        top: -5px;
+        right: 40px;
+    }
+
+    .der_2
+     {
+        position: absolute;
+        top: 60px;
+        right: 10px;
+    }
+    .der_sec
+     {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+    }
+
+    .center
+    {
+        position: absolute;
+        top: 60px;
+        left: 30%;
+    }
+
+    .piepagina
+    { 
+         background-color: rgb(75, 73, 73);
+         display: flex;
+        min-height: 50px;
+        margin-top: 10px;
+    }
+
+
+    .menu2 
+    {
+        display: flex;
+        list-style:none;
+        margin-top:5px; 
+        border-radius: 15px;
+    }
+
+    .menu2 li a
+     {
+         background-color:rgb(251, 4, 4);
+        color:rgb(252, 251, 251);
+        display:block;
+        text-decoration:none;
+        padding:10px 20px;
+        border-radius: 15px;
+        
+    }
+
+
+
+    .menu2 li input
+     {
+        display:block;
+        text-decoration:none;
+        padding:10px 10px;
+        border-radius: 20px;
+        width: 150px;
+        border: 2px solid #060606; 
+       
+    }
+    .menu2 li button
+    {
+     
+       border-radius: 20px;
+       background-color: rgb(75, 73, 73);
+       border: 2px solid #060606; 
+       color: white;
+       padding: 10px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin-left: 5px;
+      
+   }
+
+    .menu2 ul 
+    {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .menu2 a 
+    {
+        display: block;
+        padding: 2em;
+        background-color: rgb(75, 73, 73);
+        text-decoration: none;
+        color: #191C26;
+    }
+
+    .menu2 a:hover 
+    {
+         background-color: rgb(75, 73, 73);
+    }
+
+    .menu2 ul li ul 
+    {
+         display: none;
+    }
+
+    .menu2 ul li a:hover + ul, .menu2 ul li ul:hover
+    {
+         display: block;
+    }
+
+   
+
+
